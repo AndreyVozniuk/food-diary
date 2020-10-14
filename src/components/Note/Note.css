@@ -1,0 +1,8 @@
+.note{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+.note-content{
+  display: flex;
+}
