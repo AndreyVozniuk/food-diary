@@ -17,14 +17,11 @@ function App() {
 
   function searchNotes(text){
     setNotes(notes.map(el =>{ 
-      el.eatType.toLowerCase().indexOf(text.toLowerCase()) === 0 ? el.isHide = false : el.isHide = true
+      el.eatType.toLowerCase().startsWith(text.toLowerCase()) ? el.isHide = false : el.isHide = true
       return el
     })
     )
   }
-
-  let countHiddenEl = 0
-  notes.forEach(el => {if(el.isHide) countHiddenEl++})
 
   return <div className='wrap'>
     <div className='content p-4'>
@@ -32,7 +29,7 @@ function App() {
       <Note addNote={addNote}/>
       <Search searchNotes={searchNotes}/>
       <div  className='eat-list'>
-        {notes.length === 0 || countHiddenEl === notes.length ? <div className='note-empty'>Notes list is empty.</div> :
+        {notes.length === 0 || notes.every(el => el.isHide === true) ? <div className='note-empty'>Notes list is empty.</div> :
          notes.map(el => {
             return <EatItem 
             date={el.date} 
