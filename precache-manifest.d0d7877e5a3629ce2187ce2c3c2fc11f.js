@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32f315b631943033832b3b490b945d6f",
+    "revision": "2a0eddbe485e1068e904c0fc238e807d",
     "url": "/food-diary/index.html"
   },
   {
-    "revision": "ef3a50dcba59cc43e10f",
-    "url": "/food-diary/static/css/main.088384a4.chunk.css"
+    "revision": "1bc68ed6d9f67537c53b",
+    "url": "/food-diary/static/css/main.dbd95a12.chunk.css"
   },
   {
     "revision": "0d5f81aeb0ca339081c2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/food-diary/static/js/2.1ca0fff0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef3a50dcba59cc43e10f",
+    "revision": "1bc68ed6d9f67537c53b",
     "url": "/food-diary/static/js/main.7a5f5f00.chunk.js"
   },
   {
