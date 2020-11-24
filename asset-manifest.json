@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/food-diary/static/css/main.088384a4.chunk.css",
+    "main.js": "/food-diary/static/js/main.7a5f5f00.chunk.js",
+    "main.js.map": "/food-diary/static/js/main.7a5f5f00.chunk.js.map",
+    "runtime-main.js": "/food-diary/static/js/runtime-main.ea0ab2e8.js",
+    "runtime-main.js.map": "/food-diary/static/js/runtime-main.ea0ab2e8.js.map",
+    "static/js/2.1ca0fff0.chunk.js": "/food-diary/static/js/2.1ca0fff0.chunk.js",
+    "static/js/2.1ca0fff0.chunk.js.map": "/food-diary/static/js/2.1ca0fff0.chunk.js.map",
+    "index.html": "/food-diary/index.html",
+    "precache-manifest.f09905a28c333f9f10588e2781564f9c.js": "/food-diary/precache-manifest.f09905a28c333f9f10588e2781564f9c.js",
+    "service-worker.js": "/food-diary/service-worker.js",
+    "static/css/main.088384a4.chunk.css.map": "/food-diary/static/css/main.088384a4.chunk.css.map",
+    "static/js/2.1ca0fff0.chunk.js.LICENSE.txt": "/food-diary/static/js/2.1ca0fff0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea0ab2e8.js",
+    "static/js/2.1ca0fff0.chunk.js",
+    "static/css/main.088384a4.chunk.css",
+    "static/js/main.7a5f5f00.chunk.js"
+  ]
+}
